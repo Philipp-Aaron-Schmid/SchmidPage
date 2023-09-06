@@ -1,10 +1,46 @@
 div {
-    color:rgb(5, 1, 58);
+    color: rgb(5, 1, 58);
     background-color: rgb(253, 249, 233);
-    padding: 1vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: .05%;
+    padding-bottom: .05%;
     margin: auto;
     width: 60%;
 }
+
 body {
     background-color: rgb(254, 153, 1);
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    color: rgb(5, 1, 58);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: .05%;
+    padding-bottom: .05%;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    background-color:rgb(223, 220, 207);
+}
+li a:hover:not(.active) {
+    background-color: rgb(193, 191, 181);
+  }
+.active{
+    background-color:rgb(134, 132, 125);
 }
